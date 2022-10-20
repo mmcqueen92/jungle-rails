@@ -1,6 +1,12 @@
 class CartsController < ApplicationController
 
   def show
+    if cart.empty?
+      render(
+        html: "<div class='alert'><p>Your cart is currently empty.</p><a href='/' class='btn btn-success'>Back to home page</a></div>".html_safe,
+        layout: 'application'
+      )
+    end
   end
 
   def add_item
