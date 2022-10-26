@@ -1,5 +1,6 @@
 describe('home page tests', () => {
-  it('visits the home page', () => {
+
+  it('Visits the home page', () => {
     cy.visit('/')
   });
 
@@ -10,4 +11,5 @@ describe('home page tests', () => {
   it("There is 2 products on the page", () => {
     cy.get(".products article").should("have.length", 2);
   });
+  
 })
