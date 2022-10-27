@@ -29,3 +29,9 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+## Screenshots
+
+!["Screenshot of products"](https://github.com/mmcqueen92/jungle-rails/blob/master/docs/cart.png?raw=true)
+!["Screenshot of cart"](https://github.com/mmcqueen92/jungle-rails/blob/master/docs/cart.png?raw=true)
+!["Screenshot of empty cart"](https://github.com/mmcqueen92/jungle-rails/blob/master/docs/empty%20cart.png?raw=true)
